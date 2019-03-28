@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>On Track</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/index.scss">
+    <link rel="stylesheet" href="./assets/css/index.css">
   </head>
   <body>
     <header>
@@ -21,51 +21,54 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="">
-        <div id="demo" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
-          <!-- The slideshow -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="la.jpg" alt="Los Angeles">
-            </div>
-            <div class="carousel-item">
-              <img src="chicago.jpg" alt="Chicago">
-            </div>
-            <div class="carousel-item">
-              <img src="ny.jpg" alt="New York">
-            </div>
+    <main class="container">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/image/bg1.jpg" alt="Los Angeles" class="img-slide">
           </div>
-          <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
+          <div class="carousel-item">
+            <img src="./assets/image/bg2.jpg" alt="Chicago" class="img-slide">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/image/bg3.jpg" alt="New York" class="img-slide">
+          </div>
         </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
       <div class="">
         <div class="">
           <div class="">
-
+            <h6 class="text-center">Categories</h6>
           </div>
         </div>
-        <div class="">
-          <div class="">
-
-          </div>
-          <div class="">
-
-          </div>
-          <div class="">
-
+        <div class=" row col-sm-12">
+          <div class="col-sm-10">
+            <div class="img__wrap">
+              <img class="img__img" src="./assets/image/div1.jpg" />
+              <p class="img__description">This image looks super neat.</p>
+            </div>
+            <div class="img__wrap">
+              <img class="img__img" src="./assets/image/div2.jpg" />
+              <p class="img__description">This image looks super neat.</p>
+            </div>
+            <div class="img__wrap">
+              <img class="img__img" src="./assets/image/div3.jpg" />
+              <p class="img__description">This image looks super neat.</p>
+            </div>
           </div>
         </div>
       </div>
