@@ -1,3 +1,16 @@
+/*SCSS MIxNING*/
+@mixin dedicate-height($high) {
+  height: $high;
+} 
+@mixin dedicate-width($wide) {
+  width: $wide;
+
+} 
+@mixin back-col($main,$first,$second,$third) {
+  background-color: $main; /* For browsers that do not support gradients */
+  background-image: radial-gradient($first,$second,$third)
+} 
+
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +19,14 @@
 p{
   margin-bottom:0 !important; 
 }
-.h-50{
-  height: 75vh !important;
+
+.high-50{
+  @include dedicate-height(50vh);
 }
 /* effect of image text*/
-
+body{
+  @include back-col(#111214,#3e4147, #2c2e33,#111214);
+}
 
 @media (max-width: 575.98px) {
   .img__wrap {
@@ -48,13 +64,23 @@ p{
       width: 100%;
       height: 100%;
   } 
-  // .carousel-inner {
-  //   width: 100%;
-  //   height: 100%;
-  // }
-  // .img-slide{
-  //   width: 100%;
-  // }
+  .wide-95{
+    @include dedicate-width(95%);
+  }
+  .wide-25{
+    @include dedicate-width(25%);
+  }
+  .wide-70{
+    @include dedicate-width(70%);
+  }
+  .wide-40{
+    @include dedicate-width(40%);
+  }
+  ul li {
+    margin-left : .5em;
+    margin-right : .5em;
+    list-style: none;
+  }
 
  }
 

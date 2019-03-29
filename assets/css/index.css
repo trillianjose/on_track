@@ -1,3 +1,4 @@
+/*SCSS MIxNING*/
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +9,17 @@ p {
   margin-bottom: 0 !important;
 }
 
-.h-50 {
-  height: 75vh !important;
+.high-50 {
+  height: 50vh;
 }
 
 /* effect of image text*/
+body {
+  background-color: #111214;
+  /* For browsers that do not support gradients */
+  background-image: radial-gradient(#3e4147, #2c2e33, #111214);
+}
+
 @media (max-width: 575.98px) {
   .img__wrap {
     position: relative;
@@ -46,6 +53,23 @@ p {
   .img__img {
     width: 100%;
     height: 100%;
+  }
+  .wide-95 {
+    width: 95%;
+  }
+  .wide-25 {
+    width: 25%;
+  }
+  .wide-70 {
+    width: 70%;
+  }
+  .wide-40 {
+    width: 40%;
+  }
+  ul li {
+    margin-left: .5em;
+    margin-right: .5em;
+    list-style: none;
   }
 }
 
