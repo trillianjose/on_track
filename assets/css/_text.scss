@@ -1,0 +1,28 @@
+$white: #fff;
+$danger: #ff0000;
+$blue: #2cd5f7;
+
+.text-center{
+    text-align: center;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-bolder{
+    font-weight: bolder;
+}
+.text-vetrical-center{
+    vertical-align: middle;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.text-white{
+    color:$white;
+}
+.text-danger{
+    color:$danger;
+}
+.text-blue{
+    color:$blue;
+}
