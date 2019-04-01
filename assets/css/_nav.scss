@@ -1,0 +1,68 @@
+@mixin fitcontent {
+    height: fit-content;
+  }
+  
+  @mixin linkpadding {
+    padding: 15px;
+  }
+  
+  @mixin push-right {
+    margin-left: auto;
+  }
+  
+  .navbar {
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .brand {
+    @include fitcontent();
+    @include linkpadding();
+  }
+  
+  ul.nav-ul,
+  .form {
+    display: none;
+  }
+  
+  .active {
+    color: #3498db;
+  }
+  .hamburger {
+    @include fitcontent();
+    @include linkpadding();
+    @include push-right();
+  }
+  @media screen and (min-width: 576px) {
+      .img-logo{
+          height: 3rem;
+      }
+  }
+  @media screen and (min-width: 768px) {
+    ul.nav-ul {
+      display: flex;
+      flex-wrap: wrap;
+  
+      .nav-item {
+        list-style: none;
+        margin: 0 10px;
+      }
+    }
+  
+    form.form {
+      display: block;
+      @include push-right();
+      @include fitcontent();
+      @include linkpadding();
+  
+      .input-box {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #bdc3c7;
+      }
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  }
