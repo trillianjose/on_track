@@ -10,30 +10,29 @@
   <body>
     <header class="container">
       <div class="navbar">
-        <a href="#" class="brand w-35"><img src="./assets/image/logo.jpg" alt="" class="w-100 img-logo"></a>
+        <a href="#" class="logo-href"><img src="./assets/image/logo.jpg" alt="" class="img-logo"></a>
         <ul class="nav-ul">
-            <li class="nav-item active"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Poduct</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">community</a></li>
+            <li class="nav-item mr-4"><a class="nav-link" href="#">community</a></li>
         </ul>
-        <form action="#" class="form">
-            <input type="text" class="input-box">
-            <a href="#"><i class="fa fa-search"></i></a>
-        </form>
-        <span class="hamburger fa fa-bars"></span>
+        <div class="hamburger">
+          <i class="fas fa-bars hamburger-icon text-center"></i>
+        </div>
       </div>
     </header>
-    <main class="">
-      <div class="w3-content w3-display-container">
-        <img class="mySlides" src="./assets/image/bg1.jpg" style="width:100%">
-        <img class="mySlides" src="./assets/image/bg2.jpg" style="width:100%">
-        <img class="mySlides" src="./assets/image/bg5.jpg" style="width:100%">
-      
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    <main class="container">
+      <div class="contain">
+        <div class="container">
+          <img class="mySlides" src="./assets/image/bg1.jpg" style="width:100%">
+          <img class="mySlides" src="./assets/image/bg2.jpg" style="width:100%">
+          <img class="mySlides" src="./assets/image/bg5.jpg" style="width:100%">
+        </div>
+        <button class="carousel-btn-1" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="carousel-btn-2" onclick="plusDivs(1)">&#10095;</button>
       </div>
       <div class="">
         <div class="">
