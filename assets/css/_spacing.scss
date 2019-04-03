@@ -1,96 +1,96 @@
 $space: 1rem;
 @function spacer($num){
-    @return ($space * (0.25*$num));
+  @return ($space * (0.25*$num));
 }
 
 .m-auto{
-    margin:auto;
+  margin:auto;
 }
 .ml-auto{
-    margin-left:auto;
+  margin-left:auto;
 }
 .mr-auto{
-    margin-right: auto;
+  margin-right: auto;
 }
 .mt-auto {
-    margin-top: auto;
+  margin-top: auto;
 }
 .mb-auto {
-    margin-bottom: auto;
+  margin-bottom: auto;
 }
 /*margin top*/
 .mt-0 {
-    margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 .mt-1 {
-    margin-top: spacer(1) !important;
+  margin-top: spacer(1) !important;
 }
 .mt-2 {
-    margin-top: spacer(2) !important;
+  margin-top: spacer(2) !important;
 }
 .mt-3 {
-    margin-top: spacer(3) !important;
+  margin-top: spacer(3) !important;
 }
 .mt-4 {
-    margin-top: spacer(4) !important;
+  margin-top: spacer(4) !important;
 }
 .mt-5 {
-    margin-top: spacer(5) !important;
+  margin-top: spacer(5) !important;
 }
 /*margin bottom*/
 .mb-0 {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 .mb-1 {
-    margin-bottom: spacer(1) !important;
+  margin-bottom: spacer(1) !important;
 }
 .mb-2 {
-    margin-bottom: spacer(2) !important;
+  margin-bottom: spacer(2) !important;
 }
 .mb-3 {
-    margin-bottom: spacer(3) !important;
+  margin-bottom: spacer(3) !important;
 }
 .mb-4 {
-    margin-bottom: spacer(4) !important;
+  margin-bottom: spacer(4) !important;
 }
 .mb-5 {
-    margin-bottom: spacer(5) !important;
+  margin-bottom: spacer(5) !important;
 }
 /*margin left*/
 .ml-0 {
-    margin-left: 0 !important;
+  margin-left: 0 !important;
 }
 .ml-1 {
-    margin-left: spacer(1) !important;
+  margin-left: spacer(1) !important;
 }
 .ml-2 {
-    margin-left: spacer(2) !important;
+  margin-left: spacer(2) !important;
 }
 .ml-3 {
-    margin-left: spacer(3) !important;
+  margin-left: spacer(3) !important;
 }
 .ml-4 {
-    margin-left: spacer(4) !important;
+  margin-left: spacer(4) !important;
 }
 .ml-5 {
-    margin-left: spacer(5) !important;
+  margin-left: spacer(5) !important;
 }
 /*margin right*/
 .mr-0 {
-    margin-right: 0 !important;
+  margin-right: 0 !important;
 }
 .mr-1 {
-    margin-right: spacer(1) !important;
+  margin-right: spacer(1) !important;
 }
 .mr-2 {
-    margin-right: spacer(2) !important;
+  margin-right: spacer(2) !important;
 }
 .mr-3 {
-    margin-right: spacer(3) !important;
+  margin-right: spacer(3) !important;
 }
 .mr-4 {
-    margin-right: spacer(4) !important;
+  margin-right: spacer(4) !important;
 }
 .mr-5 {
-    margin-right: spacer(5) !important;
+  margin-right: spacer(5) !important;
 }
