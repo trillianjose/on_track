@@ -1,9 +1,11 @@
 # OnTrack
 
-This project we got to make our own framework in order to use it as a bootstrap for our webpage. Was a challenge just to adapt the syntax and our way to make a simple webpage. This experience is very useful for us on the future, most likely will make easier the next time we use it.
+This is a framework created just to complete a project we had, got the essential
+things that any webpage creator need in order to make a website, strong bases
+on CSS and even a slide show complete it with some JS.
 
 ### TOOLS
-- HTML
+- JavaScript
 - CSS
 - SCSS
 
@@ -11,7 +13,3 @@ This project we got to make our own framework in order to use it as a bootstrap 
 
 [Jose Arteche](https://github.com/trillianjose)
 [Shakhawat Hossain](https://github.com/shshamim63)
-
-### Live Demo
-
-Click [here](https://raw.githack.com/trillianjose/on_track/development/index.html) to see the latest updates.
