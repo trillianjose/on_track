@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+$white: #fff;
+$danger: #ff0000;
+$blue: #2cd5f7;
+$lightgray: #717987;
+$lightblue: #70a0f4;
+.text-center{
+  text-align: center;
+}
+.text-bold{
+  font-weight: bold;
+}
+.text-bolder{
+  font-weight: bolder;
+}
+.text-vetrical-center{
+  vertical-align: middle;
+}
+.text-decoration-none{
+  text-decoration: none;
+}
+.text-white{
+  color:$white;
+}
+.text-danger{
+  color:$danger;
+}
+.text-blue{
+  color:$blue;
+}
+.text-lightgray{
+  color:$lightgray;
+}
+.text-lightblue{
+  color:$lightblue;
+}
+.style-none{
+  list-style: none;
+}
+.d-flex{
+  display: flex;
+}
+.js-cn-sp-bt{
+  justify-content: space-between;
+}
+.font-ZCOOL{
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+.h1{
+  font-size: 24px;
+}
+.h2{
+  font-size: 22px;
+}
+.h3{
+  font-size: 20px;
+}
+.h4{
+  font-size: 18px;
+}
+.h5{
+  font-size: 16px;
+}
+.h6{
+  font-size: 14px;
+}
